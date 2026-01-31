@@ -3,7 +3,7 @@ name: Combine M3U (No Deduplication)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
+    - cron: "0 0 */7 * *" # runs every 12 hours
 
 permissions:
   contents: write   # 👈 THIS IS THE IMPORTANT PART
