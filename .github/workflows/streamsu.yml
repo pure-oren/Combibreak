@@ -1,8 +1,8 @@
-name: 🚀 Update StreamEast Playlist 📺
+name: 🚀 Update StreamedSU Playlist 📺
 
 on:
   schedule:
-    - cron: '0 * * * *'  # ⏰ Run every hour
+    - cron: '0 */2 * * *'  # ⏰ Run every 2 hours
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
           playwright install-deps
 
       - name: 🎯 Run scraping script
-        run: python stream.py
+        run: python streamsu.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
@@ -40,10 +40,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage the output
-          git add StreamEast.m3u8
+          git add StreamedSU.m3u8
 
-          # Check if file actually changed
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
             exit 0
@@ -51,14 +49,13 @@ jobs:
 
           git commit -m "🔁 Update playlist $(date -u +'%a %b %d %T UTC %Y')"
 
-          # Small random delay to reduce collisions
           sleep $((RANDOM % 10 + 5))
 
-          # Safe push, fallback merge if rejected
           if ! git push origin main; then
-            echo "⚠️ Push rejected. Trying safe fetch + merge..."
-            git pull origin main --rebase || {
-              echo "❌ Rebase failed. Exiting to avoid corruption."
+            echo "⚠️ Push rejected. Trying safe rebase with 'theirs' strategy..."
+            git fetch origin main
+            git rebase -X theirs origin/main || {
+              echo "❌ Rebase failed. Exiting."
               exit 1
             }
             git push origin main || {
