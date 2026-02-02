@@ -1,6 +1,10 @@
 import json
 import urllib.request
-from urllib.error import URLError, HTTPError
+from urllib.error import HTTPError, URLError
+
+# =========================
+# CONFIG
+# =========================
 
 BASE = "https://pixelsport.tv"
 API_EVENTS = f"{BASE}/backend/liveTV/events"
@@ -10,9 +14,18 @@ OUTPUT_FILE = "Pixelsports.m3u8"
 LIVE_TV_LOGO = "https://raw.githubusercontent.com/nero31994/CHANLOGO/refs/heads/main/1762214337176.png"
 LIVE_TV_ID = "24.7.Dummy.us"
 
-VLC_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-VLC_REFERER = f"{BASE}/"
-VLC_ICY = "1"
+# Browser-like headers (IMPORTANT)
+USER_AGENT = (
+    "Mozilla/5.0 (Linux; Android 13) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/121.0.0.0 Mobile Safari/537.36"
+)
+
+REFERER = "https://pixelsport.tv/"
+
+# =========================
+# LEAGUE DATA
+# =========================
 
 LEAGUE_INFO = {
     "NFL": ("NFL.Dummy.us", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp98tY_AU1CnIPb2SbBlRirQMfeQKpIG1yL8UBnyGnXw&s=10", "NFL"),
@@ -25,23 +38,36 @@ LEAGUE_INFO = {
     "BOXING": ("PPV.EVENTS.Dummy.us", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpnIfziDGxqAWn2F_I916ApClUXtsSQUoxWLQaaBZMvQ&s=10", "Boxing"),
 }
 
+# =========================
+# NETWORK
+# =========================
 
 def fetch_json(url):
-    """Fetch JSON from URL with headers"""
     headers = {
-        "User-Agent": VLC_USER_AGENT,
-        "Referer": VLC_REFERER,
-        "Accept": "*/*",
-        "Connection": "close",
-        "Icy-MetaData": VLC_ICY,
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": REFERER,
+        "Origin": BASE,
+        "X-Requested-With": "XMLHttpRequest",
+        "Connection": "keep-alive",
     }
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=10) as resp:
-        return json.loads(resp.read().decode("utf-8"))
 
+    req = urllib.request.Request(url, headers=headers)
+
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except HTTPError as e:
+        raise Exception(f"HTTP {e.code} Forbidden")
+    except URLError as e:
+        raise Exception(f"Network error: {e.reason}")
+
+# =========================
+# HELPERS
+# =========================
 
 def collect_links(obj, prefix=""):
-    """Collect valid stream links from object"""
     links = []
     if not obj:
         return links
@@ -54,67 +80,73 @@ def collect_links(obj, prefix=""):
 
 
 def get_league_info(name):
-    """Return league info tuple: (tvg-id, logo, group name)"""
     for key, (tvid, logo, group) in LEAGUE_INFO.items():
         if key.lower() in name.lower():
             return tvid, logo, group
     return ("Pixelsports.Dummy.us", LIVE_TV_LOGO, "Pixelsports")
 
+# =========================
+# M3U BUILDER
+# =========================
 
 def build_m3u(events, sliders):
-    """Build the M3U playlist text"""
     lines = ["#EXTM3U"]
 
     for ev in events:
         title = ev.get("match_name", "Unknown Event").strip()
         logo = ev.get("competitors1_logo", LIVE_TV_LOGO)
         league = ev.get("channel", {}).get("TVCategory", {}).get("name", "Sports")
-        tvid, group_logo, group_display = get_league_info(league)
+        tvid, _, group_display = get_league_info(league)
+
         links = collect_links(ev.get("channel", {}))
         if not links:
             continue
 
         for link in links:
-            lines.append(f'#EXTINF:-1 tvg-id="{tvid}" tvg-logo="{logo}" group-title="NxB-sports - {group_display}",{title}')
-            lines.append(f"#EXTVLCOPT:http-user-agent={VLC_USER_AGENT}")
-            lines.append(f"#EXTVLCOPT:http-referrer={VLC_REFERER}")
-            lines.append(f"#EXTVLCOPT:http-icy-metadata={VLC_ICY}")
-            lines.append(link)
+            lines.extend([
+                f'#EXTINF:-1 tvg-id="{tvid}" tvg-logo="{logo}" group-title="NxB-sports - {group_display}",{title}',
+                f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
+                f"#EXTVLCOPT:http-referrer={REFERER}",
+                link
+            ])
 
     for ch in sliders:
         title = ch.get("title", "Live Channel").strip()
-        live = ch.get("liveTV", {})
-        logo = LIVE_TV_LOGO  
-        links = collect_links(live)
+        links = collect_links(ch.get("liveTV", {}))
         if not links:
             continue
 
         for link in links:
-            lines.append(f'#EXTINF:-1 tvg-id="{LIVE_TV_ID}" tvg-logo="{logo}" group-title="NxB-sports - Live TV",{title}')
-            lines.append(f"#EXTVLCOPT:http-user-agent={VLC_USER_AGENT}")
-            lines.append(f"#EXTVLCOPT:http-referrer={VLC_REFERER}")
-            lines.append(f"#EXTVLCOPT:http-icy-metadata={VLC_ICY}")
-            lines.append(link)
+            lines.extend([
+                f'#EXTINF:-1 tvg-id="{LIVE_TV_ID}" tvg-logo="{LIVE_TV_LOGO}" group-title="NxB-sports - Live TV",{title}',
+                f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
+                f"#EXTVLCOPT:http-referrer={REFERER}",
+                link
+            ])
 
     return "\n".join(lines)
 
+# =========================
+# MAIN
+# =========================
 
 def main():
     try:
         print("[*] Fetching PixelSport data...")
         events_data = fetch_json(API_EVENTS)
-        events = events_data.get("events", []) if isinstance(events_data, dict) else []
         sliders_data = fetch_json(API_SLIDERS)
-        sliders = sliders_data.get("data", []) if isinstance(sliders_data, dict) else []
+
+        events = events_data.get("events", [])
+        sliders = sliders_data.get("data", [])
 
         playlist = build_m3u(events, sliders)
+
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(playlist)
 
-        print(f"[+] Saved: {OUTPUT_FILE} ({len(events)} events + {len(sliders)} live channels)")
+        print(f"[+] Saved {OUTPUT_FILE} ({len(events)} events + {len(sliders)} live channels)")
     except Exception as e:
         print(f"[!] Error: {e}")
-
 
 if __name__ == "__main__":
     main()
