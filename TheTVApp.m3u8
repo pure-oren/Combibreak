@@ -1,18 +1,18 @@
-#EXTM3U url-tvg="https://tvpass.org/epg.xml" # Updated: 1770098593
+#EXTM3U url-tvg="https://tvpass.org/epg.xml" # Updated: 1770100492
 
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="New Orleans Pelicans @ Charlotte Hornets - 2/2/26, 8:10:00 PM UTC SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",New Orleans Pelicans @ Charlotte Hornets - 2/2/26 - 8:10:00 PM UTC SD
-https://v5.thetvapp.to/hls/NBA01/tracks-v1a1/mono.m3u8?token=SxMzCZ46aYAIZCFC9L93gg&expires=1770122468&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://e5.thetvapp.to/hls/NBA01/tracks-v1a1/mono.m3u8?token=3ox4u2M4fxjP3nDI9Kaiqg&expires=1770124355&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="New Orleans Pelicans @ Charlotte Hornets - 2/2/26, 8:10:00 PM UTC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",New Orleans Pelicans @ Charlotte Hornets - 2/2/26 - 8:10:00 PM UTC HD
-https://v5.thetvapp.to/hls/NBA01/tracks-v1a1/mono.m3u8?token=89uwMWyjDYX9V9vKHhUNCQ&expires=1770122474&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://v15.thetvapp.to/hls/NBA01/tracks-v1a1/mono.m3u8?token=XLZOrCCH9LQ8Go_b_n8VbA&expires=1770124361&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Houston Rockets @ Indiana Pacers - 2/3/26, 12:10:00 AM UTC SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Houston Rockets @ Indiana Pacers - 2/3/26 - 12:10:00 AM UTC SD
-https://v15.thetvapp.to/hls/NBA03/tracks-v1a1/mono.m3u8?token=jQcev7AkW3quhRnwTci7OA&expires=1770122479&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://v8.thetvapp.to/hls/NBA03/tracks-v1a1/mono.m3u8?token=KWaOT6hhwock4P8dBRPXng&expires=1770124366&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Houston Rockets @ Indiana Pacers - 2/3/26, 12:10:00 AM UTC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Houston Rockets @ Indiana Pacers - 2/3/26 - 12:10:00 AM UTC HD
-https://v8.thetvapp.to/hls/NBA03/tracks-v1a1/mono.m3u8?token=ABWwX4ek0NbJ66YMfR1Pzw&expires=1770122485&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://v18.thetvapp.to/hls/NBA03/tracks-v1a1/mono.m3u8?token=2U0m6-DO1CaQ8xuEI7VbFA&expires=1770124372&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Minnesota Timberwolves @ Memphis Grizzlies - 2/3/26, 2:40:00 AM UTC SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Minnesota Timberwolves @ Memphis Grizzlies - 2/3/26 - 2:40:00 AM UTC SD
-https://v8.thetvapp.to/hls/NBA02/tracks-v1a1/mono.m3u8?token=MPFYxy8kMcX2htcQCk4N5A&expires=1770122491&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://v18.thetvapp.to/hls/NBA02/tracks-v1a1/mono.m3u8?token=XgWonIpIeXWXQEFDfCMEWQ&expires=1770124378&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Minnesota Timberwolves @ Memphis Grizzlies - 2/3/26, 2:40:00 AM UTC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Minnesota Timberwolves @ Memphis Grizzlies - 2/3/26 - 2:40:00 AM UTC HD
-https://v2.thetvapp.to/hls/NBA02/tracks-v1a1/mono.m3u8?token=zq9LTosq3giFI1HUozieiA&expires=1770122496&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://v3.thetvapp.to/hls/NBA02/tracks-v1a1/mono.m3u8?token=SaPJ7IHS8jY0pPpoO15Dlw&expires=1770124383&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Philadelphia 76ers @ Los Angeles Clippers - 2/3/26, 3:40:00 AM UTC SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Philadelphia 76ers @ Los Angeles Clippers - 2/3/26 - 3:40:00 AM UTC SD
-https://v18.thetvapp.to/hls/NBA05/tracks-v1a1/mono.m3u8?token=9ijXalyoq9ND-nKLxBJEBQ&expires=1770122502&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://e1.thetvapp.to/hls/NBA05/tracks-v1a1/mono.m3u8?token=vNZ0juVdPlUHQyGoi2XmqQ&expires=1770124389&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="Philadelphia 76ers @ Los Angeles Clippers - 2/3/26, 3:40:00 AM UTC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10" group-title="TheTVApp - NBA",Philadelphia 76ers @ Los Angeles Clippers - 2/3/26 - 3:40:00 AM UTC HD
-https://v17.thetvapp.to/hls/NBA05/tracks-v1a1/mono.m3u8?token=eKh2GuTgqfsVwBQRwKlSNw&expires=1770122508&user_id=eDZJdWlMT0ZlTGVlUDR0ZHRTbllITUF6Wm1ROGtBZkowYkNiOFpvag==
+https://e1.thetvapp.to/hls/NBA05/tracks-v1a1/mono.m3u8?token=AMMeUguVpcrgLnX0S10hOQ&expires=1770124394&user_id=alZBbnFzdFVaT21DNUV1NGVCMGtjeUprNGY4RHJWOUFCeGh1VlhDSw==
