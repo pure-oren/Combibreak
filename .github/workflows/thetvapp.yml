@@ -1,0 +1,60 @@
+name: ▶️ Update TheTVApp Playlist
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # ⏰ Run every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Python dependencies & Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright urllib3 aiohttp
+          playwright install firefox
+          playwright install-deps
+
+      - name: 🎯 Run scraping script
+        run: python tv.py
+
+      - name: 💾 Commit & Safely Push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage the output
+          git add TheTVApp.m3u8
+
+          # Check if file actually changed
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "✅ Updated TheTVApp.m3u8 $(date -u +'%a %b %d %T UTC %Y')"
+
+          # Attempt to push. If it fails, pull with a strategy that 
+          # favors our newly scraped file during conflicts.
+          if ! git push origin main; then
+            echo "⚠️ Push rejected. Resolving conflicts by favoring new scrape..."
+            git pull origin main --rebase -X theirs
+            git push origin main
+          fi
