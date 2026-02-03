@@ -21,11 +21,11 @@ SECTIONS_TO_APPEND = {
 }
 
 SPORTS_METADATA = {
-    "MLB": {"tvg-id": "MLB.Baseball.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/Baseball-2.png"},
+    "MLB": {"tvg-id": "MLB.Baseball.Dummy.us", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwPbC8Y_P-A2b7KCbbvfHSrkUQcD7SjcKLUbvIx3UIe0XcyRU87xJpcc0G&s=10"},
     "PPV": {"tvg-id": "PPV.EVENTS.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/PPV.png"},
-    "NFL": {"tvg-id": "NFL.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/NFL.png"},
+    "NFL": {"tvg-id": "NFL.Dummy.us", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp98tY_AU1CnIPb2SbBlRirQMfeQKpIG1yL8UBnyGnXw&s=10"},
     "NCAAF": {"tvg-id": "NCAA.Football.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/CFB.png"},
-    "NBA": {"tvg-id": "NBA.Basketball.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/NBA.png"}
+    "NBA": {"tvg-id": "NBA.Basketball.Dummy.us", "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEW4Pqk8--LWwJTrfRkVmKIG0R-_-40I1XGuR4moCIw&s=10"}
 }
 
 def extract_real_m3u8(url: str):
