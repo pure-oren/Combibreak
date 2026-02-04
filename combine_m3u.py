@@ -12,7 +12,6 @@ M3U_SOURCES = [
     "https://viplaylist.vercel.app/SportsWebcast.m3u8",
     "https://viplaylist.vercel.app/Roku.m3u",
     "https://viplaylist.vercel.app/ssungph.m3u",
-    "https://raw.githubusercontent.com/nero31994/pluto2/refs/heads/main/filtered_playlist.m3u",
     "https://premiumm3u.vercel.app/skygo.m3u",
     "https://viplaylist.vercel.app/hbomax.m3u",
 ]
