@@ -4,7 +4,7 @@ OUTPUT_FILE = "combined_playlist.m3u"
 
 M3U_SOURCES = [
     "https://raw.githubusercontent.com/nero31994/aaa.m3u/refs/heads/main/aaa.m3u",
-    "https://viplaylist.vercel.app/Pixelsports.m3u8",
+    "https://tvpass.org/playlist/m3u",
     "https://premiumm3u.vercel.app/NXB.m3u",
     "https://premiumm3u.vercel.app/Jungo.m3u",
     "https://viplaylist.vercel.app/AriaPlus.m3u8",
