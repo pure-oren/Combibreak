@@ -3,17 +3,12 @@ import requests
 OUTPUT_FILE = "combined_playlist.m3u"
 
 M3U_SOURCES = [
-    "https://raw.githubusercontent.com/nero31994/aaa.m3u/refs/heads/main/aaa.m3u",
+    "https://krtube.kkt01.workers.dev/pureitptv.m3u",
     "https://tvpass.org/playlist/m3u",
-    "https://premiumm3u.vercel.app/NXB.m3u",
-    "https://premiumm3u.vercel.app/Jungo.m3u",
-    "https://viplaylist.vercel.app/AriaPlus.m3u8",
-    "https://viplaylist.vercel.app/IndiHome.m3u",
-    "https://viplaylist.vercel.app/SportsWebcast.m3u8",
     "https://viplaylist.vercel.app/Roku.m3u",
     "https://viplaylist.vercel.app/ssungph.m3u",
     "https://premiumm3u.vercel.app/skygo.m3u",
-    "https://viplaylist.vercel.app/hbomax.m3u",
+
 ]
 
 MAIN_EPG = "https://github.com/atone77721/CIGNAL_EPG/raw/refs/heads/main/merged_epg.xml.gz"
