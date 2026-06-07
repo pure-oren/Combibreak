@@ -3,7 +3,7 @@ import requests
 OUTPUT_FILE = "combined_playlist.m3u"
 
 M3U_SOURCES = [
-    "https://krtube.kkt01.workers.dev/pureitptv.m3u",
+    "https://raw.githubusercontent.com/noveylynmarieignacio-blip/activeuser.json/refs/heads/main/pureiptv.m3u",
     "https://tvpass.org/playlist/m3u",
     "https://viplaylist.vercel.app/Roku.m3u",
     "https://viplaylist.vercel.app/ssungph.m3u",
