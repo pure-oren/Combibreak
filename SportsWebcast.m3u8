@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="Chiefs @ Broncos" tvg-logo="https://nflwebcast.com/wp-content/uploads/2020/10/Logo-Denver-Broncos.svg" group-title="NFLWebcast - Live Games",Chiefs @ Broncos
-#EXTVLCOPT:http-origin=https://nflwebcast.com/
-#EXTVLCOPT:http-referrer=https://nflwebcast.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://webcast-origin.b-cdn.net/bcdn_token=PClhH1F4kj87enMhlomntzfpS9JIdWQauPKJ4ZjqIG4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFiJ4YE54AJoYEdt7KlQSGf%2F&expires=1793541996/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFiJ4YE54AJoYEdt7KlQSGf/54.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Oilers @ Rangers" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/New-York-Rangers.svg" group-title="NHLWebcast - Live Games",Oilers @ Rangers
 #EXTVLCOPT:http-origin=https://slapstreams.com/
 #EXTVLCOPT:http-referrer=https://slapstreams.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://s3.thegamehd.top/auth/175.m3u8?token=7gI8LxauZGlNfWTu6sTWn2LO6oZYvT8lxdzR0I5QMjRDYDE4erKfCwK7AHK3ik3j0QOaGNJCecWaYDTv5iHYfjw86j6lsJoYByx3VMBTq7fVKfAg3OwgBnIJGb-ZhzrxE2UJLc825jELpGDAQ1O0KbBgzuBV-MfAIg3z4DEP8iSBceh_5mZJ_W9JWxuaTZ46RU0Fqsj8csho07hWsRBZRB58JMVDtG5gw_X3r2a99UfdZ12Y2ESQVmer9RCFDYG3A8T94AOC21SJ_gj1zzkzgx7I8UXjuWa8p0RRxwraNwq08ijM51UGt5dnLo7tajU4_6mYRB7vk9ZSr2vz7w1NOwFzf5D6NECcZDaKEuf3PTDBO-YeFnnCqF5kNQUJ-Xv_aNvkWVgNY2NIUqgOQTfpIvHYThb2xLkzSdJ3idlob5WuLjHcWueF1U573qE1jnKBhynpFuyzrGesFI59rJDrtJOhdm_OYfaasX2DRtE5xshJ6I4qN0NwmaCzgzfcIlaTndyWxy8n0a-IUAmHlYK-ZkJpLWKSrcSw_mU7PiJpeYBm08HQqbJ9fPnKCpX3KtlPV8k5jrsTlhacRkRGE85bYYtRctxDDZDWThxM-T1dlhlJp2rHA3zKUlUHQwA4SG-J
+https://s3.thegamehd.top/auth/175.m3u8?token=7gI8LxauZGlNfWTu6sTWn2LO6oZYvT8lxdzR0I5QMjRDYDE4erKfCwK7AHK3ik3j0QOaGNJCecWaYDTv5iHYfjw86j6lsJoYByx3VMBTq7fVKfAg3OwgBnIJGb-ZhzrxPW06FE0vQ2wEX44SvSdNMXouWV5XT4vJ-BtD3AycPVufqRd3coFoosFJYulO7xE48Q5bfoxpnIgwFjfWT-nQxJ1CQBivYg3ckmXnI0aYLlUI9UzemnqrOCbCVPusIse4QPzkbxJKkgB6gLEAWULKcVNYlnCnkb6Q4rId7Z0iMVSWz1sHMOToH6nwZ7SFAbgeOd5Qv4D6h56joHJJt7O9QXw2a2ESvK26CpWPSimlSpRVw9VKQsFRYq9LZJqU57hZBO1e_jYV6jQCtOJC4hFD481LSlKPjycWLv4hrub7A6mxc4UVP4gmbJ00PwGKxekQxDALEuL-euxpSnfvIE4g-ugzWlVlpaLzRxrdNM1g_juSfUOS7-oC6MRC4PYnPLYVJYxLicMddATo_eF9i5gs7umTNm4hu-EniMZ4rWuFB1vDsZQnSD76osCKZoaj0vGvg_yESXmggnq-jNimSunAxtPXF0dbvacwVUkv8i40meHiQlcWxv91PyR00l_q47rX
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Senators @ Ducks" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/Anaheim-Ducks.svg" group-title="NHLWebcast - Live Games",Senators @ Ducks
+#EXTVLCOPT:http-origin=https://slapstreams.com/
+#EXTVLCOPT:http-referrer=https://slapstreams.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+https://s6.thegamehd.top/auth/90.m3u8?token=HUN8WvW5wVqmejqh0kFyp3obq0ZnS3AzcyXl-pHUGzoGgZRpNFOk6jsEF7tRPmaS6xxVWqpRBeSR-JlIevCOeKFrGVn1iTGN2AznuPZfvKKZyhfZJTaDBfnUJGiJerqgJv6MlrcnxrfiY8CZQZUtbjItnQoTMigfVLgQopZxGJldntqfH-EVS0EBDUkaUuSoDwRKNFbhnizZp6lVOmKA__IBLaBVJIoP_Lp46x8WLznp-HShXWvI7AdxPPKQoRcz8ak7HSK--E5SttnrS_Muu3qaKn4qxwh9Z4i81b7nFOG4gYxSgGsiQfScAxRmoUqCUN4WP8lEs9zAhNlG6C4jGPUtBOM6EWP6WvifO4fwKZ9GbOHickcdQ7JVsteHHCSze501ukeRzIWx7v-ne02256S7t51sM3w65qVIN0TICST3E3LY-akfxz6KJwfoxfgbIh-YhYH3BOWQO-SPbkwjJb0XZ8BFnZKD6EWFWeiKiQCkI3YsgWuxu2y6N_GLpKQoMItybTw_o-6uDL-YsKocugeGEQ-j0_qFckRuvAoRcHCIqqGSC8BSKYGxk6oLCDiXILqo14ccoMtuChUvpGT3EVtgcg5S2CvOdTXEvLLvQV2j4y3LEqepC1st2N-0ZU4j
