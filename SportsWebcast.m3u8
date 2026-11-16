@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Panthers @ Stars" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/Dallas-Stars.svg" group-title="NHLWebcast - Live Games",Panthers @ Stars
-#EXTVLCOPT:http-origin=https://slapstreams.com/
-#EXTVLCOPT:http-referrer=https://slapstreams.com/
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="Mlb @ Draft" tvg-logo="https://mlbwebcast.com/wp-content/uploads/2023/02/MLB-Webcast.svg" group-title="MLBWebcast - Live Games",Mlb @ Draft
+#EXTVLCOPT:http-origin=https://mlbwebcast.com/
+#EXTVLCOPT:http-referrer=https://mlbwebcast.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://s3.thegamehd.top/auth/104.m3u8?token=WfTz4ZVwZWcAPwkkMBquWXJonqrRMVvEh4GtCfis6Iv-BQzpvyhhuEVe33Hyn1k_qeIgMUuZdsSikl5PYSo3PFC-e8uUhFwg0ytC4rIS_1IOTFEojLfncUxTTcmmbynQYXmx9SrFdgqcdrTSQpm04QVbhwFMLsxvVE79lxZ4w3qCizCpsLXeoPSSUN2Y6f4kwoXDPHNS2jX-iJ7yCh1hJ2T-pc3FCa_P_mx4DhZn1M_x83RM2qNRCLrVuo_27XUIBdNwM5y_IA9Cu192wDoNwcu_363XTzjXysKbIg1Qpt_VRL7x4k-9uqx4qLOjJn1PZYgnQg49Y9jK7vI8of4-BqTCwi3HiV_tMXn0b4tToJGDG9FXlhaBZkCItls-bt4RI1G25-wXnq5n2aqIYS4LdY2wOR1wqXrzNZlo30zspugnU9vFWjOwnEjQJXgWpTqMAyNBhJrKNGkP3x_qqG7ZpV5Lyr1bCoVw-W6JsAaYM7y77OdQtJ5JFVKCWDxJ6i2x1jJDSYt26oJd1puDy14cKCNO6b0jgv_cD_9nYQb02lADvuManJNfCk7O8DL210dojOb0JFbwBxtERk8LD90d7BinQM7AnAOORqD9IDu0HGI
+https://s3.thegamehd.top/auth/135.m3u8?token=zee5WkdKuXkxH5mbCj08EaOXbsF9PdJ6YzSbdZFNdxhM13us48-BjGbTcKVLDCOSAU-LHgGSY4amUPSpXs8JdwPli2oZiAf38nbtDXsIOXHo5r9UaVMrUp_o2AX3ZRd2JkKT3UmE2c_vK51YLgTYefF5EW5Nfue-Dn2j1tVitXvzpFHvm7X_R09xKI-vVVUBG93F2WBi1aNI9rhCGyBxXbrvaWLnJIOFiF1s5Iz2A8Q8etKq2kzU8sYE0YPmeVbeZxARAptjChCab5aDlsbm8ax9YdUbStd3W2T7sKoFYDRJeKdhHjKiuoAuml3Gu81WTN4v8EuECWuN23TxYnLmfjI9W5r14APNsYup8ddKlx1CAZGF5h_h8fWrmWnYPHSDPeAgoknowNbZxctwLPsOErA9Jj8uA-7ohZy7eoL-kB2D2qIaK-8IAyxAWRlH2VCzuSCESzpjSh8G0Jwi0vFMtBTOsZJBoJfS5qjf8HtbmAqh6ee6oqS1EhLKa8FGBKKH-6ZIUhvmj0z68h37rBfQQSV0SOu8ZcBpqhJnfbMFchlW-JMyFCryeb2K4rjEDwpXy72mmqLnehMpKfLHY1IoFiIsDPZPqj9pr-XgteCV697_g6ImJduZ-LsI8aCkLglDKgDfaa4EBGSlG83Fdt3Ouw
