@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="Mlb @ Draft" tvg-logo="https://mlbwebcast.com/wp-content/uploads/2023/02/MLB-Webcast.svg" group-title="MLBWebcast - Live Games",Mlb @ Draft
-#EXTVLCOPT:http-origin=https://mlbwebcast.com/
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com/
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Canadiens @ Rangers" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/New-York-Rangers.svg" group-title="NHLWebcast - Live Games",Canadiens @ Rangers
+#EXTVLCOPT:http-origin=https://slapstreams.com/
+#EXTVLCOPT:http-referrer=https://slapstreams.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://s3.thegamehd.top/auth/135.m3u8?token=zee5WkdKuXkxH5mbCj08EaOXbsF9PdJ6YzSbdZFNdxhM13us48-BjGbTcKVLDCOSAU-LHgGSY4amUPSpXs8JdwPli2oZiAf38nbtDXsIOXHo5r9UaVMrUp_o2AX3ZRd2JkKT3UmE2c_vK51YLgTYefF5EW5Nfue-Dn2j1tVitXvzpFHvm7X_R09xKI-vVVUBG93F2WBi1aNI9rhCGyBxXbrvaWLnJIOFiF1s5Iz2A8Q8etKq2kzU8sYE0YPmeVbeZxARAptjChCab5aDlsbm8ax9YdUbStd3W2T7sKoFYDRJeKdhHjKiuoAuml3Gu81WTN4v8EuECWuN23TxYnLmfjI9W5r14APNsYup8ddKlx1CAZGF5h_h8fWrmWnYPHSDPeAgoknowNbZxctwLPsOErA9Jj8uA-7ohZy7eoL-kB2D2qIaK-8IAyxAWRlH2VCzuSCESzpjSh8G0Jwi0vFMtBTOsZJBoJfS5qjf8HtbmAqh6ee6oqS1EhLKa8FGBKKH-6ZIUhvmj0z68h37rBfQQSV0SOu8ZcBpqhJnfbMFchlW-JMyFCryeb2K4rjEDwpXy72mmqLnehMpKfLHY1IoFiIsDPZPqj9pr-XgteCV697_g6ImJduZ-LsI8aCkLglDKgDfaa4EBGSlG83Fdt3Ouw
+https://s3.thegamehd.top/auth/175.m3u8?token=7gI8LxauZGlNfWTu6sTWn2LO6oZYvT8lxdzR0I5QMjRDYDE4erKfCwK7AHK3ik3j0QOaGNJCecWaYDTv5iHYfjw86j6lsJoYByx3VMBTq7fVKfAg3OwgBnIJGb-Zhzrx75O-3IgBninspPHtVHLFbSHZOUfSrFVDof_20ZjLlSCowqg6gpWQ7PaOHUHGuqam4iDkcl6i5b96W8CIvLp4vOB-Ts5kLs3NP8tlWgeVDxElZ8EKALjmUYqGKSoqgdt0lf-wpbntEV3bKX6kRd5B91iVygWp7J_WXwUHp7pIVLel9EetiBI2UEFRQmfYEonbSetXsYTfB6J3nqgZSe9G_FxibM0Zhh6eZ4RKYnJqETsB9FLDkT-KTtvUfRFo9wE6mdNDAoIgEn85HjA_Bs9hHShqC8RjoKHCJXblnI-2wHQ9_qNvf0JNEQdzndGc1oZ2u6ORUxnpt4i7IfWFJt0mdJYafLZ8yxR2rhlBRNDoZDNJiFxsWhQATrtO3ka6YPTKfEypizbOJs-epWbvsrzfnh9K4ErL_qKGpdmMERuSWsilvtFUKf159ubbqzGX4RHbPiNfpnddr6nEVUn_y_6pvcKtpjgwY4oXxAMU15HjNfY
