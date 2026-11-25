@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Kings @ Canadiens" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/Los-Angeles-Kings.svg" group-title="NHLWebcast - Live Games",Kings @ Canadiens
-#EXTVLCOPT:http-origin=https://slapstreams.com/
-#EXTVLCOPT:http-referrer=https://slapstreams.com/
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="Packers @ Rams" tvg-logo="https://nflwebcast.com/wp-content/uploads/2020/10/Logo-Los-Angeles-Rams.svg" group-title="NFLWebcast - Live Games",Packers @ Rams
+#EXTVLCOPT:http-origin=https://nflwebcast.com/
+#EXTVLCOPT:http-referrer=https://nflwebcast.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://s5.thegamehd.top/auth/87.m3u8?token=jDGh27mo3TwgSbGVh5Z1_M1-be0U0dAtHAG4uMuMdwuJIu-kt2d_Wmztsr8TGMJU6uOlVhs0hvoNNl3f5_csxo1Vg6JKLpH8Kan5Qqchrj_Gu3MI9jR3wX88iJgE5B86AaJwmkwCc4saXkYZ1csDWAYHNI8ovBtb2xkphT5NYbu94eIBVdivFkyKhqzZBLpwlF4rpHNn9tPPl4te0bKCaK165hmFyS4Z6o8JPHEvksM7yrsmzB_VlzORNTS_8xRAG3V2vdh1AxIkm2Nb_3zgPJU8CT5AAv4w21XpWNm1NxiCO17YqfzLFEsyk7kyfuC4-Q_psCZHOl9nCTzcALVv0y6VNhLCnx0VUVPVrElQIzFcEl6zS3-X7GhiFWwC7yjFD7u_QIsZ-GZJJW3LkEYiUdAV0EkWkO1kfZBEFGw9zUjEqw2eCThALsJzA5UCGZbxADe4Up1bUhsCzIYsydij-z4mXbg_HO_TLn1Wpzy009W3XHc0cSoZ8LaKoR4iKN-Mr7Gl57xPcfR3MZOiJIUXW-MkJr5UXL17rQbDRvcc7Qdm6jdTw0w8OBoRg5zio6DUSk48Qz_2piOECouYe5JY02_8i8AF--VR7wbqO_Wbpd9aVAWYhRr6tqWtLVbjuCcd
+https://webcast-origin.b-cdn.net/bcdn_token=p9fKubugWXq6X5xR6QiZyY1jis4T2tq1Y6-jfvWgmx4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGpUxEISKzryIOuVpSJQREE%2F&expires=1795619268/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGpUxEISKzryIOuVpSJQREE/177.m3u8
