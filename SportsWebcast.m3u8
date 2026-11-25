@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="Packers @ Rams" tvg-logo="https://nflwebcast.com/wp-content/uploads/2020/10/Logo-Los-Angeles-Rams.svg" group-title="NFLWebcast - Live Games",Packers @ Rams
-#EXTVLCOPT:http-origin=https://nflwebcast.com/
-#EXTVLCOPT:http-referrer=https://nflwebcast.com/
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Senators @ Panthers" tvg-logo="https://slapstreams.com/wp-content/uploads/2021/04/Florida-Panthers.svg" group-title="NHLWebcast - Live Games",Senators @ Panthers
+#EXTVLCOPT:http-origin=https://slapstreams.com/
+#EXTVLCOPT:http-referrer=https://slapstreams.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
-https://webcast-origin.b-cdn.net/bcdn_token=p9fKubugWXq6X5xR6QiZyY1jis4T2tq1Y6-jfvWgmx4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGpUxEISKzryIOuVpSJQREE%2F&expires=1795619268/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGpUxEISKzryIOuVpSJQREE/177.m3u8
+https://s5.thegamehd.top/auth/170.m3u8?token=R50w-gg1oQItO1MT3Lde0iO7XOLPabzVHyW3kY3H0W5G5aRoWE_6pExkOjm8Yo1htB23nMmxV8Jkn_8DUvHLCtX3x44V4uOdMH6KggduQjHq-GtyD0wu8qgoFgM_LfjSKxMt9LXxhccI_neAeTOz_JY0CvdAHlbp0KPCbe1PcUwfHEfxFNvDWsE_DwWuz6CT1ifWNkzGpB-6nE2zWPCUT_XIKR8R9tcsDihf2_UXck_qR36tjz_pWXl0Yb49EEV3QJe_H89IqMXgT7J6U56w2uhgvv0brglVMQ9Cc4OjRI__WLY2QcqT6Bfs_5tTLpa-WEcUD8vyieU2msmdRTKqOXB0BkNSmlu1DXsqSjM0DfF5VFGAxjt4tcvAOnPEH4tmowwIP8WVKgR6v7XWJL5u122i1tNx80KNyIfs6rUbE9yIULYrCl4QNsZGepqSfyUBMH8DiSdsJoZWo9KSS-hqjb0GmfqKBTrEYcthTIh1uD15vQIBrEiZnhq-mR72i_Mwv_tWVXrMfZFjgDOu2pDy-fOJUNZ4Wlo5OB9bMHvMiciB_FG2NY0shQtOy6qPh2yZQ3SrSQR_fYnw10_-niT1WgwoIRUZJOOMUKoneVXEKFay_99n3guekXOBunEcxYC9rxd878LZkm3AnhFRKW8y0Q
